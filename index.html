@@ -7,7 +7,7 @@
     <title>Allax</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onscroll="myFunction1()">
     <header>
         <section>
             <div id="logo"></div>
@@ -29,12 +29,17 @@
                 </ul>
             </nav>
         </section>
+        <script>
+            function myFunction() {
+              Allax.getElementById("myDIV").style.color = "red";
+            }
+            </script>
     </header>
     <section>
 
         <h3>Beauty & Spa Care</h3>
         <h1>The Care Of Home</h1>
-        <a><button>Appointment Now</button></a> <!--draggle-->
+        <a><button id="button" onclick="myFunction()">Appointment Now</button></a> <!--draggle-->
     </section>
     <article>
         <picture>
@@ -230,8 +235,44 @@
             </form>
         </div>
     <section>
-
+      <img>
     </section>
+    <section>
+        <div>
+            <ul>Contact info
+                <li>Address: 123 Street Jaipur Rajasthan India</li>
+                <li>Phone: +91 123-111-2222</li>
+                <li>Email: example@gmail.com</li>
+                <li>Opentime: 9.00Am - 3:00Pm</li>
+            </ul>
+            <ul>Account
+                <li>My account</li>
+                <li>Wishlist</li>
+                <li>Cart</li>
+                <li>Shop</li>
+                <li>Checkout</li>
+            </ul>
+            <ul>Information
+                <li>About us</li>
+                <li>Careers</li>
+                <li>Delivery Information</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+            </ul>
+            <ul>Payment methods
+                
+            </ul>
 
+        </div>
+    </section>
+    <footer>
+        <p>© Copyright 2020 AlLax</p>
+        <ul>
+            <li>Sitemap</li>
+            <li>Terms & Condition</li>
+            <li>Private Policy</li>
+        </ul>
+    </footer>
+<script src="JS/app.js"></script>
 </body>
 </html>
