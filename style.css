@@ -29,3 +29,28 @@ section{
   background-color: #13a4a4;
 }
 
+h2{
+  margin-bottom: 8px;
+}
+
+.line span{
+  display: inline-block;
+  
+  font-weight: bold;
+  background-color: rgb(250,163,146);
+}
+
+p{
+  margin-bottom: 16px;
+}
+
+.list{
+  list-style-image: /*svg*/ 
+}
+
+.list li::before{
+  content:url(); /* Insert content that looks like bullets */
+  padding-right: 8px;
+  background-color: rgb(250,163,146);
+}
+
