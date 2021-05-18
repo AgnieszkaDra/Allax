@@ -5,3 +5,27 @@
 section{
   background-color: aquamarine;
 }
+
+#main__nav{
+  list-style-type: none;
+}
+
+  #main__nav{
+  display: flex;
+ 
+  
+}
+ .nav__li__ul__li{
+  display: none;
+}
+
+#main__nav .nav__li:first-child:hover  .nav__li__ul__li {
+  display: block;
+}
+
+#main__nav a{
+  padding: 5px;
+  color: white;
+  background-color: #13a4a4;
+}
+
