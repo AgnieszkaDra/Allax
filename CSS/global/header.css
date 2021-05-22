@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    color:rgb(250,163,146)
+}
+
+button{
+    background-color: rgb(250,163,146);
+}
+
+button:hover{
+    background-color: rgb(250,146,181);
+}

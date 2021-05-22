@@ -6,32 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allax</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/global/header.css">
+    <link rel="stylesheet" href="CSS/global/content.css">
+    <link rel="stylesheet" href="CSS/global/footer.css">
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/mobile.css/header">
-    <link rel="stylesheet" href="CSS/mobile/content.css">
-    <link rel="stylesheet" href="CSS/mobile/footer.css">
-    <link rel="stylesheet" href="CSS/tablet/header.css">
-    <link rel="stylesheet" href="CSS/tablet/content.css">
-    <link rel="stylesheet" href="CSS/tablet/footer.css">
-    <link rel="stylesheet" href="CSS/desktop/header.css">
-    <link rel="stylesheet" href="CSS/desktop/content.css">
-    <link rel="stylesheet" href="CSS/desktop/footer.css">
+    <link rel="stylesheet" 
+    media="(max-width:760px)" href="CSS/mobile/header.css">
+    <link rel="stylesheet" 
+    media="(max-width:760px)" href="CSS/mobile/content.css">
+    <link rel="stylesheet" 
+    media="(max-width:760px)" href="CSS/mobile/footer.css">
     <link rel="stylesheet"
-    media="(min-width: 761px)" href="CSS/tablet.css">
+    media="(min-width: 761px)" href="CSS/tablet/header.css">
+    <link rel="stylesheet" 
+    media="(max-width:760px)" href="CSS/tablet/content.css">
+    <link rel="stylesheet" 
+    media="(max-width:760px)" href="CSS/tablet/footer.css">
     <link rel="stylesheet"
-    media="(min-width: 1281px)" href="CSS/desktop.css">
+    media="(min-width: 1281px)" href="CSS/desktop/header.css">
+    <link rel="stylesheet"
+    media="(min-width: 1281px)" href="CSS/desktop/content.css">
+    <link rel="stylesheet"
+    media="(min-width: 1281px)" href="CSS/desktop/footer.css">
 
 </head>
 <body>
     <header>
         <section class="section__header">
-            <div id="logo" class="section__logo"></div>
-            
-                <button class="button__nav" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="flex">
+                <div id="logo" class="section__logo">Allax</div>
+                
+                <button class="button__nav" type="button">
                     <i class="fas fa-bars text-light"></i>
                 </button>
-            <nav>
+            </div>
+           
+           
                 <ul id="main__nav" class="nav">
                     <li class="nav__li"><a href="#">Home</a>
                         <ul class="nav__li__ul">
@@ -47,7 +57,7 @@
                     <li class="nav__li"><a href="#">Contact</a></li>
                     <li class="nav__li"><a href="#">Appointment</a></li>
                 </ul>
-            </nav>
+                
         
         </section>
     </header>
