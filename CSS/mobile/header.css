@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(254, 244, 241);
+    
+    
+    height: 80px; 
+    width: 100%;
+}
+
+
+nav{
+    display: none;
+    
+    background-color: blueviolet;
+   
+}
+
+header > .section__header{
+    display: flex;
+    background-color: blue;
+}
+
+.button__nav{
+  align-self: flex-end;  
+order: 3;
+/*flex style*/
+}
+
+
+#main__nav {
+    display: none;
+    }
+
+
+input:checked + #main__nav {
+    display: block;
+    }
+
+header {
+    position: relative;
+    }
+
+header label {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+   }
+
+header input {
+    display: none;
+   }
+   
