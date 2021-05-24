@@ -33,15 +33,17 @@
 <body>
     <header>
         <section class="section__header">
-            <div class="flex">
+            
+            
                 <div id="logo" class="section__logo">Allax</div>
                 
-                <button class="button__nav" type="button">
+                <nav class="main__nav" id="main-menu">
+                <button class="button__nav" type="button" id="toggle-menu">
                     <i class="fas fa-bars text-light"></i>
                 </button>
-            </div>
+            
            
-           
+                <div class="main__dropdown">
                 <ul id="main__nav" class="nav">
                     <li class="nav__li"><a href="#">Home</a>
                         <ul class="nav__li__ul">
@@ -57,9 +59,21 @@
                     <li class="nav__li"><a href="#">Contact</a></li>
                     <li class="nav__li"><a href="#">Appointment</a></li>
                 </ul>
+            </div>
+                </nav>
                 
         
         </section>
+        <script type="text/javascript">
+        (function(){
+    let button = document.getElementById('toggle-menu');
+    button.addEventListener('click', function(event){
+        event.preventDefault();
+        let menu =document.getElementById('main-menu');
+        menu.classList.toggle('is-open');
+    });
+}) ();
+        </script>
     </header>
     <main>
 
@@ -303,5 +317,16 @@
         </ul>
     </footer>
 <script src="JS/app.js"></script>
+
+<script type="text/javascript">
+    (function(){
+let button = document.getElementById('toggle-menu');
+button.addEventListener('click', function(event){
+    event.preventDefault();
+    let menu =document.getElementById('main-menu');
+    menu.classList.toggle('is-open');
+});
+}) ();
+    </script>
 </body>
 </html>

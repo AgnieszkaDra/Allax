@@ -1,20 +1,63 @@
-    ul{
-        display: none; 
+   .main__nav{
+       position: relative;
    }
 
-    .flex{
-    display: flex;
-    justify-content: space-around;
-    
-    background-color: blue;
-    }
 
-    .button__nav:hover{
+   .button__nav{
+       position: absolute;
+       top: -1.2em;
+       right: 0.1em;
+       border: 0;
+       background-color: transparent;
+       font-size: 3em;
+       width: 1em;
+       height: 1em;
+       line-height: 0.4;
+       text-indent: 5em;
+       white-space: nowrap;
+       overflow: hidden;
+   }
+
+   .button__nav:active + .main__dropdown {
+
+    display: block;  
+    text-decoration: none;
+    height: 100vh;
+    background-color: aquamarine;
+    width: 100%;
+    
+}
+
+
+
+   /* .button__nav:active{
+       position: absolute;
+       top:0.2em;
+       left: 0.2em;
+       display: block;
+       
+   } */
+
+   .main__dropdown{
+       display: none;
+       position: absolute;
+       right: 0;
+       left: 0;
+       margin: 0;
+   }
+
+   .main__nav .is-open .main__dropdown{
+       display: block;
+   }
+
+    
+
+    /* .button__nav:hover{
         border: 2px solid black;
         border: 2px;
     }
 
-    .button__nav:active ~ ul {
+    .button__nav:active + ul {
 
         display: block;  
         text-decoration: none;
@@ -22,10 +65,13 @@
         background-color: aquamarine;
         width: 100%;
         
+        
     }
 
-    .button__nav:active {
-        display: none;
+    
+
+    .button__nav:active + ul  ul {
+        z-index: 1;
     }
 
    /* .section__logo ~ .button__nav:active{
@@ -36,7 +82,7 @@
         display: none;
     } */
 
-    .nav{
+    /* .nav{
        margin-top: 0;
        margin-left: 0;
     }
@@ -44,13 +90,13 @@
     .nav__li{
         padding: 10px;
         margin-left: 50px;
-    }
+    } */
 
      
 
     
 
-
+ */
 
 
 
