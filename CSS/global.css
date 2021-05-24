@@ -1,0 +1,50 @@
+
+
+html body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #243238;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+html *, html :after, html :before {
+    box-sizing: inherit;
+}
+
+.content {
+    display: flex;
+}
+
+.frame-wrapper.frame-wrapper_smartphone {
+    border: 1px solid #fff;
+    box-shadow: 0 14px 24px rgb(45 57 75 / 10%);
+    margin: 50px auto;
+}
+
+.frame-wrapper.frame-wrapper_smartphone {
+    width: 392px;
+}
+
+div {
+    display: block;
+}
+
+
+html body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #243238;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
